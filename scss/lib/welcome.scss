@@ -4,4 +4,16 @@
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: auto;
+}
+
+.tabsheet-bar-item {
+  margin-right: 1rem;
+}
+
+.custom-header {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-family: "Comic Sans MS"; // todo: import from fonts folder?
 }

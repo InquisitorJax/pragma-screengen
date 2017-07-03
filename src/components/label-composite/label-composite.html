@@ -1,0 +1,11 @@
+<template>
+    <div class="label">
+        <label id="${id}_label" for="${id}_field" ref="labelControl">${label}</label>
+    </div>
+    <div>
+        <div id="labelSlot" ref="labelSlot">
+            <slot></slot>
+        </div>
+        <div id="${id}_descriptor" if.bind="hasDescriptor" class="descriptor-label">${descriptor}</div>
+    </div>
+</template>

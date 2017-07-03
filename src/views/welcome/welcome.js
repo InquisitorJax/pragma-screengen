@@ -4,6 +4,7 @@ import {DynamicViewLoader, listTemplate1, populateTemplate, GroupWorker, Templat
 import {staffOrderGroupItems} from './../../resources/staff-grouping';
 import {staffMembers}  from './../../resources/staff-data';
 import {staffTemplate} from './../../resources/staff-template';
+import {staffTemplateSpec} from './../../resources/staff-template-spec';
 
 @inject(Element, DynamicViewLoader, GroupWorker)
 export class Welcome {
@@ -97,7 +98,7 @@ export class Welcome {
      */
     attached() {
         this.refreshData();
-        this.templateParser.parse(staffTemplate).then(html => this.changeDetailTemplate(html));
+        this.templateParser.parse(staffTemplateSpec).then(html => this.changeDetailTemplate(html));
 
         this.refreshDataHandler = this.refreshData.bind(this);
         this.masterListOptions = [
@@ -140,7 +141,7 @@ export class Welcome {
      * Display this html in the details page
      */
     changeDetailTemplate(templateHtml) {
-        this.dynamicViewLoader.load(templateHtml, this.detailsElement, this, );
+        this.dynamicViewLoader.load(templateHtml, this.detailsElement, this);
     }
 
     /**

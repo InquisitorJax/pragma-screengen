@@ -6,6 +6,7 @@
   "scripts": {
     "build": "bucli -c all",
     "run": "bucli -c all && http-server",
+    "serve": "start chrome http://localhost:8080",
     "test": "nyc mocha --compilers js:babel-core/register --recursive"
   },
   "keywords": [],

@@ -3,6 +3,7 @@
 ## Introduction
 This project is set up and configured to use pragma screengen.  
 The purpose of this excersize is to get familiar with the template json structure in defining screens using the template parser.
+The original spec is defined [here](https://github.com/pragmaproducts/Training/blob/master/Projects/Project0.2.md)
 
 ## What to develop
 This excersize will be similar to what you will be doing in developing default tempaltes for pragma software.
