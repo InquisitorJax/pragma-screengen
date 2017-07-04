@@ -184,7 +184,7 @@ export const staffTemplateSpec =
                             element: "input",
                             "title": "Site",
                             "field": "siteCode",
-                            "description": "siteDescription"
+                            "description": "${model.siteDescription}"
                         }]
                 },
                 {
