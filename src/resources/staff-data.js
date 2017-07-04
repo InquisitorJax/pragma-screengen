@@ -17,7 +17,25 @@ export const staffMembers = [
         "sectionDescription": "a section description",
         "emailOnApprovedWO": true,
         "smsOnApprovedWO": true,
-        "smsForCriticalAsset": true
+        "smsForCriticalAsset": true,
+        //added
+        "initials" : "J U",
+        "postNumber" : 13434,
+        "personnelNumber" : 4324234,
+        "mobileNumber" : "234-23423-24543",
+        "email" : "test@unknownuser.com",
+        "tradeCode" : "HAND",
+        "tradeDescription" : "Handiman ala Connoisseur",
+        "costElementCode" : "LAB",
+        "costElementDescription" : "Labour",
+        "calendarCode" : "CAL_UNK",
+        "calendarDescription" : "Calendar for the unknowable",
+        "siteCurrencyCode" : "USD",
+        "siteCurrencyDescription" : "United States Dollar",
+        "normalTime" : 90.00,
+        "overtime1" : 135.00,
+        "overtime2" : 155.00,
+        "overtime3" : 175.00
     },
     {
         "id": 5000001001,

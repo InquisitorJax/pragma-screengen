@@ -75,7 +75,7 @@ export const staffTemplate =
                                 "element": "checkbox",
                                 "attributes": {
                                     /** currently doesn't work **/
-                                    "readonly": "true"
+                                    "disabled": "true"
                                 }
                             },
                             {
