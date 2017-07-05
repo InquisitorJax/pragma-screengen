@@ -6,5 +6,7 @@ pragma-form {
   bottom: 0;
   height: initial;
 
-  @include overflow-scroll(scroll, touch);
+  tabsheet-bar div {
+    margin-right: $default-padding;
+  }
 }

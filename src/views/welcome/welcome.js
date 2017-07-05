@@ -116,9 +116,11 @@ export class Welcome {
         this.detailOptions = [
             {
                 id: 1,
-                title: "Wazaaap",
-                iconName: "search",
-                call: _ => alert("wazaaap'")
+                title: "Swap Template",
+                iconName: "refresh",
+                call: _ => {
+                    this.changeTemplate();
+                }
             }
         ]
     }

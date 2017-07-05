@@ -3,6 +3,9 @@ export function configure(aurelia) {
         aurelia.use
             .standardConfiguration()
             .developmentLogging()
+            .globalResources(
+                'pragma-tabsheet/pragma-tabsheet'
+            )
             .plugin("pragma-views", bridge => {
                 bridge.useAll();
             });
