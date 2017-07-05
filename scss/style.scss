@@ -1,6 +1,6 @@
 // Normalize css so that these styles will work the same on all browsers
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/normalize';
 @import './../jspm_packages/npm/pragma-menu@1.0.17/pragma-menu.scss';
+<<<<<<< HEAD
 @import './../jspm_packages/npm/pragma-tabsheet@1.0.23/pragma-tabsheet.scss';
 
 // Required utility css
@@ -45,6 +45,9 @@
 @import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/dialogs';
 @import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-menu';
 @import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/checkbox';
+=======
+@import './../jspm_packages/npm/pragma-views@0.0.54/scss/style.scss';
+>>>>>>> remote-copy
 
 @import './lib/welcome';
 @import './lib/master-container';

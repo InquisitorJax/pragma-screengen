@@ -1,12 +1,12 @@
 import {inject, bindable} from 'aurelia-framework';
-import {DynamicViewLoader, listTemplate1, populateTemplate, GroupWorker, TemplateParser, isMobile} from 'pragma-views';
+import {listTemplate1, populateTemplate, GroupWorker, isMobile} from 'pragma-views';
 
 import {staffOrderGroupItems} from './../../resources/staff-grouping';
 import {staffMembers}  from './../../resources/staff-data';
 import {staffTemplate} from './../../resources/staff-template';
 import {staffTemplateSpec} from './../../resources/staff-template-spec';
 
-@inject(Element, DynamicViewLoader, GroupWorker)
+@inject(Element, GroupWorker)
 export class Welcome {
     /**
      * Property holding the view loader
@@ -70,19 +70,22 @@ export class Welcome {
     @bindable detailToolbarSelectedId;
 
     /**
+     * Schema used to display the details screen
+     */
+    @bindable schema;
+
+    /**
      * constructor
      * @param element: DOMElement
      * @param dynamicViewLoader: DynamicViewLoader
      * @param groupWorker: GroupWorker
      */
-    constructor(element, dynamicViewLoader, groupWorker) {
+    constructor(element, groupWorker) {
         this.element = element;
-        this.dynamicViewLoader = dynamicViewLoader;
         this.groupWorker = groupWorker;
         this.groupingOrder = staffOrderGroupItems;
         this.cacheId = "temp-cache";
         this.isMasterVisible = true;
-        this.templateParser = new TemplateParser("model");
 
         this.listTemplate = populateTemplate(listTemplate1, {
             "__field1__": "${id}",
@@ -91,6 +94,8 @@ export class Welcome {
             "__field4__": "${lastName}",
             "__field5__": "${jobTitle}"
         });
+
+        this.schema = staffTemplate;
     }
 
     /**
@@ -98,7 +103,10 @@ export class Welcome {
      */
     attached() {
         this.refreshData();
+<<<<<<< HEAD
         this.templateParser.parse(staffTemplateSpec).then(html => this.changeDetailTemplate(html));
+=======
+>>>>>>> remote-copy
 
         this.refreshDataHandler = this.refreshData.bind(this);
         this.masterListOptions = [
@@ -138,6 +146,7 @@ export class Welcome {
     }
 
     /**
+<<<<<<< HEAD
      * Display this html in the details page
      */
     changeDetailTemplate(templateHtml) {
@@ -145,6 +154,8 @@ export class Welcome {
     }
 
     /**
+=======
+>>>>>>> remote-copy
      * Aurelia triggered event when selectedId property changes
      */
     selectedIdChanged() {
