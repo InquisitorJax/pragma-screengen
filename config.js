@@ -13,10 +13,11 @@ System.config({
     "aurelia-dialog": "npm:aurelia-dialog@1.0.0-rc.1.0.3",
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
     "aurelia-framework": "npm:aurelia-framework@1.1.2",
+    "aurelia-pal": "npm:aurelia-pal@1.3.0",
     "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
     "pragma-menu": "npm:pragma-menu@1.0.17",
     "pragma-tabsheet": "npm:pragma-tabsheet@1.0.23",
-    "pragma-views": "npm:pragma-views@0.0.36",
+    "pragma-views": "npm:pragma-views@0.0.54",
     "npm:aurelia-binding@1.2.1": {
       "aurelia-logging": "npm:aurelia-logging@1.3.1",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
@@ -32,7 +33,7 @@ System.config({
       "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
-      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.1",
+      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2",
       "aurelia-router": "npm:aurelia-router@1.3.0",
       "aurelia-templating": "npm:aurelia-templating@1.4.2",
       "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
@@ -48,7 +49,7 @@ System.config({
       "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
-      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.1",
+      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2",
       "aurelia-router": "npm:aurelia-router@1.3.0",
       "aurelia-templating": "npm:aurelia-templating@1.4.2",
       "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
@@ -64,7 +65,7 @@ System.config({
       "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
-      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.1",
+      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2",
       "aurelia-router": "npm:aurelia-router@1.3.0",
       "aurelia-templating": "npm:aurelia-templating@1.4.2",
       "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
@@ -117,7 +118,7 @@ System.config({
     "npm:aurelia-pal-browser@1.2.1": {
       "aurelia-pal": "npm:aurelia-pal@1.3.0"
     },
-    "npm:aurelia-polyfills@1.2.1": {
+    "npm:aurelia-polyfills@1.2.2": {
       "aurelia-pal": "npm:aurelia-pal@1.3.0"
     },
     "npm:aurelia-route-recognizer@1.1.0": {
@@ -170,6 +171,18 @@ System.config({
       "aurelia-path": "npm:aurelia-path@1.1.1",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0"
     },
+    "npm:aurelia-ui-virtualization@1.0.0-beta.3.1.0": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.1",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
+      "aurelia-framework": "npm:aurelia-framework@1.1.2",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
+      "aurelia-pal": "npm:aurelia-pal@1.3.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2",
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0"
+    },
     "npm:pragma-menu@1.0.17": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.1.1",
       "aurelia-framework": "npm:aurelia-framework@1.1.2"
@@ -177,9 +190,14 @@ System.config({
     "npm:pragma-tabsheet@1.0.23": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
       "aurelia-framework": "npm:aurelia-framework@1.1.2",
-      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.1"
+      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2"
     },
-    "npm:pragma-views@0.0.36": {
+    "npm:pragma-views@0.0.54": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.1.1",
+      "aurelia-dialog": "npm:aurelia-dialog@1.0.0-rc.1.0.3",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
+      "aurelia-framework": "npm:aurelia-framework@1.1.2",
+      "aurelia-ui-virtualization": "npm:aurelia-ui-virtualization@1.0.0-beta.3.1.0",
       "pragma-menu": "npm:pragma-menu@1.0.17",
       "pragma-tabsheet": "npm:pragma-tabsheet@1.0.23"
     }
