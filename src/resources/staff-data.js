@@ -18,7 +18,6 @@ export const staffMembers = [
         "emailOnApprovedWO": true,
         "smsOnApprovedWO": true,
         "smsForCriticalAsset": true,
-        //added
         "initials" : "J U",
         "postNumber" : 13434,
         "personnelNumber" : 4324234,

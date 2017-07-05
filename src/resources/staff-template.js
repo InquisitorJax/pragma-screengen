@@ -74,7 +74,6 @@ export const staffTemplate =
                                 "field": "isActive",
                                 "element": "checkbox",
                                 "attributes": {
-                                    /** currently doesn't work **/
                                     "disabled": "true"
                                 }
                             },

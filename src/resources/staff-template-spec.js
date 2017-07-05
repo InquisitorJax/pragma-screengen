@@ -82,7 +82,6 @@ export const staffTemplateSpec =
                 "field": "sectionDescription",
                 "map": "sectionDescription"
             },
-            //fields not included in staff-data
             {
                 "field": "initials",
                 "map": "initials"
@@ -184,7 +183,7 @@ export const staffTemplateSpec =
                             element: "input",
                             "title": "Site",
                             "field": "siteCode",
-                            "description": "${model.siteDescription}"
+                            "description": "siteDescription"
                         }]
                 },
                 {

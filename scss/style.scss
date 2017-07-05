@@ -1,53 +1,6 @@
 // Normalize css so that these styles will work the same on all browsers
 @import './../jspm_packages/npm/pragma-menu@1.0.17/pragma-menu.scss';
-<<<<<<< HEAD
-@import './../jspm_packages/npm/pragma-tabsheet@1.0.23/pragma-tabsheet.scss';
-
-// Required utility css
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/variables';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/colors';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/mixins';
-
-// Application spesific css
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/app';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/states';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/layout';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/typography';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-tabsheet';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/group';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/input-composite';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/input';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/textarea';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/select';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/master-detail';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/list';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/card';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/md-card';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/buttons';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/layout-table';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/switch';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/menu';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/icons';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/assistant';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/hr';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/form-search';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/ul';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/order-group';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/percentage-chart';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/master-list-container';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/master-view';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/piped';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-messages';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-grid';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/toolbar';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-options-toolbar';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-dropdown-menu';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/dialogs';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/pragma-menu';
-@import './../jspm_packages/npm/pragma-views@0.0.36/scss/lib/checkbox';
-=======
 @import './../jspm_packages/npm/pragma-views@0.0.54/scss/style.scss';
->>>>>>> remote-copy
 
 @import './lib/welcome';
 @import './lib/master-container';

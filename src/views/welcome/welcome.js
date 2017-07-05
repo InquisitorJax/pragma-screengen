@@ -95,7 +95,7 @@ export class Welcome {
             "__field5__": "${jobTitle}"
         });
 
-        this.schema = staffTemplate;
+        this.schema = staffTemplateSpec;
     }
 
     /**
@@ -103,11 +103,6 @@ export class Welcome {
      */
     attached() {
         this.refreshData();
-<<<<<<< HEAD
-        this.templateParser.parse(staffTemplateSpec).then(html => this.changeDetailTemplate(html));
-=======
->>>>>>> remote-copy
-
         this.refreshDataHandler = this.refreshData.bind(this);
         this.masterListOptions = [
             {
