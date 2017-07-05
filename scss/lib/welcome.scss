@@ -1,7 +1,10 @@
-.dr-container {
+pragma-form {
   position: absolute;
   top: 2rem;
   left: 0;
   right: 0;
   bottom: 0;
+  height: initial;
+
+  @include overflow-scroll(scroll, touch);
 }
