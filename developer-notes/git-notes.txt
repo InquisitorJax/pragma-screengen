@@ -1,0 +1,9 @@
+Update remote fork from original repo:
+fork -> branch "remote-copy"
+to sync work:
+sync "remote-copy" with original on github:
+https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
+Github Desktop:
+select master branch, and themn from menu:
+Branch - Merge into current branch -> select remote-copy
+pull "remote-copy" changes into master
