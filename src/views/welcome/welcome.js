@@ -95,7 +95,7 @@ export class Welcome {
             "__field5__": "${jobTitle}"
         });
 
-        this.schema = staffTemplateSpec;
+        this.schema = staffTemplate;
     }
 
     /**
@@ -141,16 +141,6 @@ export class Welcome {
     }
 
     /**
-<<<<<<< HEAD
-     * Display this html in the details page
-     */
-    changeDetailTemplate(templateHtml) {
-        this.dynamicViewLoader.load(templateHtml, this.detailsElement, this);
-    }
-
-    /**
-=======
->>>>>>> remote-copy
      * Aurelia triggered event when selectedId property changes
      */
     selectedIdChanged() {
@@ -160,6 +150,11 @@ export class Welcome {
             this.isMasterVisible = false;
         }
     }
+
+    changeTemplate() {
+        this.schema = staffTemplateSpec;
+    }
+
 
     /**
      * masterToolbarSelectedId changed, execute the defined function

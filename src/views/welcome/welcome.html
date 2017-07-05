@@ -13,6 +13,7 @@
             <pragma-options-toolbar dropdown-items.bind="detailOptions" selected-id.two-way="detailToolbarSelectedId">
                 <div slot="items" class="default-padding-left">
                     <input type="checkbox" checked.bind="isMasterVisible"/>
+                    <button click.delegate="changeTemplate()">Swap Template</button>
                 </div>
             </pragma-options-toolbar>
 
